@@ -7,7 +7,8 @@ public class CuentaCorriente {
     public CuentaCorriente (String nombre,double saldo){
         this.nombreTitular = nombre;
         this.saldo = saldo;
-        this.numeroCuenta = 1;
+        double numGenerado =(Math.random()*1000000);
+        this.numeroCuenta = (long) numGenerado;
     }
 
     public void setIngreso(double saldo) {
