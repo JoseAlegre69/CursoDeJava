@@ -1,4 +1,4 @@
-package Banco;
+package TP11;
 public class CuentaCorriente {
     double saldo;
     String nombreTitular;
